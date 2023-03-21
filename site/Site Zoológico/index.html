@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Zoologico
+    </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        div.botoes {
+
+            background-color: white;
+            height: 25px;
+            border-radius: 10px;
+            width: 13%;
+            display: inline-block;
+            float: left;
+        }
+
+        div.botoes:hover {
+            background-color: #F99528;
+            transition: 1.0s;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <header class="menu-principal">
+
+        <main>
+            <div class="logo">
+                <a href="#home">
+
+                    <img src="./img/logoZoo.png " width="150" />
+                </a>
+            </div>
+
+
+            <div class="todosbotoes">
+                <div class="botoes" id="q1">
+                    <h5>
+                        <a href="#atracoes">Atrações</a>
+                    </h5>
+                </div>
+                <div class="botoes" id="q2">
+                    <h5>
+                        <a href="#localizacao">Localização</a>
+                    </h5>
+                </div>
+                <div class="botoes" id="q3">
+                    <h5>
+                        <a href="#animais">Animais</a>
+                    </h5>
+                </div>
+                <div class="botoes" id="q4">
+                    <h5>
+                        <a href="#contato">Contato</a>
+                    </h5>
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <div id="home" class="slider-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 image-slide" src="./img/tigre.png" alt="Primeiro Slide">
+                    <div class="carousel-caption">
+                        MamÍferos
+                        <h2>O tigre é um dos animais mais fortes do mundo</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/araras.png" alt="Segundo Slide">
+                    <div class="carousel-caption">
+                        Aves
+                        <h2>Juntamente com os papagaios, as araras são consideradas aves muito inteligentes</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/rapiteis.jpg" alt="Terceiro Slide">
+                    <div class="carousel-caption">
+                        Répteis
+                        <h2>Um crocodilo pode ter de 2 a 3 mil dentes durante sua vida</h2>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <div id="atracoes" class="atracoes">
+        <div class="header3">
+            Conheça nossas Atrações
+        </div>
+
+        <div class="atracoes-container">
+            <div class="show show-atracoes" id="a1">
+                <img src="img/family-gb019d84b2_1920.jpg" />
+                <div class="coveratracao">
+                    <div class="tituloletra">Zoo Fotos<br>
+                        <h4>Registre momentos incríveis com sua família <br><br>
+                            <h4>Melhor que passar momentos inesqueciveis é mantelos eternizados</h4>
+
+                        </h4>
+                    </div>
+                    <div class="letra"></div>
+                </div>
+            </div>
+
+            <div class="show show-atracoes" id="a1">
+                <img src="img/safari.jpg" />
+                <div class="coveratracao">
+                    <div class="tituloletra">Zoo Safari<br>
+                        <h4>Venha alimentar os animais <br><br>
+                            <h4>Ter esse contato não tem preço</h4>
+
+                        </h4>
+                    </div>
+                    <div class="letra"></div>
+                </div>
+            </div>
+
+            <div class="show show-atracoes" id="a1">
+                <img src="img/rinoceronte.png" />
+                <div class="coveratracao">
+                    <div class="tituloletra">Zoo Global<br>
+                        <h4>Animais Unicos na América Latina <br><br>
+                            <h4>A importância desse animais, tenha o prazer e velos e a influência que o homem impacta
+                                em
+                                suas espécie</h4>
+
+                        </h4>
+                    </div>
+                    <div class="letra"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="localizacao" class="localizacao">
+        <div class="endereco1">
+            Como Chegar ?
+        </div>
+
+        <div class="endereco2">
+            <div class="informacoes">
+
+                <h4>Como Chegar ao Zoológico de Guarulhos</h4><br><br><br><br>
+                <h4>Horário de funcionamento:<br></h4>
+                <h6>Terça à domingo e feriados das 09 às 17.00 horas com entrada liberada até as 16.30horas.<br>
+                    *A ENTRADA É GRATUITA*</h6><br><br><br><br>
+                <h4>E-mail:</h4> manejo.zooguarulhos@gmail.com
+
+            </div>
+
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.4920852086398!2d-46.5545464850244!3d-23.442708084741884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef4ffea13bf09%3A0xb8d85899781b01d4!2sZool%C3%B3gico%20Municipal%20de%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1665254454714!5m2!1spt-BR!2sbr"
+                    width="700" height="400" frameborder="0" style="border:5" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div id="animais" class="mamiferos">
+        <div class="header3">
+            Os Animais
+        </div>
+
+        <div class="animais-container">
+            <div class="show-animais">
+                <img src="img/animais/mamiferos/leao.jpg" />
+
+                <div class="mamiferotexto">
+                    <h1>LEÃO</h1>
+                </div>
+            </div>
+
+            <div class="show-animais">
+                <img src="img/animais/mamiferos/girafa.jpg" />
+                <div class="mamiferotexto">
+                    <h1>GIRAFAS</h1>
+
+
+                </div>
+            </div>
+
+            <div class="show-animais">
+                <img src="img/animais/mamiferos/elefante.jpg" />
+
+                <div class="mamiferotexto">
+                    <h1>ELEFANTES</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="animais-container">
+            <div class="show-animais">
+                <img src="img/animais/aves/Araras vermelhas.jpg" />
+
+                <div class="mamiferotexto">
+                    <h1>Araras</h1>
+                </div>
+            </div>
+
+            <div class="show-animais">
+                <img src="img/animais/aves/marrecopompom.jpg" />
+                <div class="mamiferotexto">
+                    <h1>Marreco Pom Pom</h1>
+
+
+                </div>
+            </div>
+
+            <div class="show-animais">
+                <img src="img/animais/aves/Picapau.jpg " />
+
+                <div class="mamiferotexto">
+                    <h1>Pica Pau</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="animais-container">
+            <div class="show-animais">
+                <img src="img/animais/rapteis/Cobra cascavel.jpg" />
+
+                <div class="mamiferotexto">
+                    <h1>Cobra</h1>
+                </div>
+            </div>
+
+            <div class="show-animais">
+                <img src="img/animais/rapteis/dragão de komodo.jpg" />
+                <div class="mamiferotexto">
+                    <h1>Dragão de Komodo</h1>
+
+
+                </div>
+            </div>
+
+            <div class="show-animais">
+                <img src="img/animais/rapteis/jacare.jpg" />
+
+                <div class="mamiferotexto">
+                    <h1>Crocodílo</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contatos">
+        <h3>Entre em Contato</h3>
+    </div>
+
+    <div id="contato" class="contato">
+        <div class="informacoes2">
+            <h4>E-mail<br></h4>
+            <h6>manejo.zooguarulhos@gmail.com</h6>
+            <h6>zooguarulhos@gmail.com</h6>
+            <h6>zoo@gmail.com</h6>
+        </div>
+        <div class="informacoes">
+            <h5>Telefones:<br></h5>
+            <h6> Setor técnico: (11) 2452-4523<br>
+                Setor administrativo: (11) 2455-4999<br>
+                Gerência: (11) 2452-4558<br>
+                Educação ambiental: (11) 245555296</h6>
+        </div>
+    </div>
+    <div class="contatos">
+        Site desenvolvido por Iago Neres - RA: 270372020
+
+
+
+</body>
+
+</html>
